@@ -1,6 +1,6 @@
 if UCT == nil then UCT = {} end
 UCT.AddonName = "UCT"
-UCT.version = 1.0
+UCT.version = 2.1.0
 UCT.active = false
 local debugMode = false
 local EM = EVENT_MANAGER
@@ -9,8 +9,7 @@ local zf = zo_strformat
 local strF = string.format
 local _
 
-local UCT_LTF = LibStub("LibTableFunctions-1.0")
-if (not UCT_LTF) then return end
+local UCT_LTF = LibTableFunctions
 
 UCT.defaults = {
 	firstRun = true,
