@@ -1,6 +1,6 @@
 if UCT == nil then UCT = {} end
 UCT.AddonName = "UCT"
-UCT.version = 2.1.0
+UCT.version = 1.0
 UCT.active = false
 local debugMode = false
 local EM = EVENT_MANAGER
